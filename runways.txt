@@ -1,0 +1,14 @@
+Airport: MDF
+Runway 1: Occupied
+Runway 2: Occupied
+Runway 3: Available
+
+Airport: BXD
+Runway 1: Occupied
+Runway 2: Occupied
+Runway 3: Occupied
+
+Airport: HTW
+Runway 1: Available
+Runway 2: Available
+Runway 3: Available

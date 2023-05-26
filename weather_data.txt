@@ -1,0 +1,5 @@
+Flight_Number,Date,Time,Origin,Destination,Temperature(C),Wind Speed(km/h),Visibility(km)
+BA123,2023-05-25,09:00,London,Paris,18,30,10
+DL456,2023-05-25,12:30,New York,Miami,28,20,15
+UA789,2023-05-26,08:45,Chicago,Los Angeles,22,25,12
+AA234,2023-05-26,14:15,Dallas,Denver,25,15,8

@@ -1,0 +1,5 @@
+FlightName Passengers Crews FlightHours
+AIP3 100 5 10
+QW9F 150 6 8
+LD3W 80 4 12
+M2LQ 120 5 7

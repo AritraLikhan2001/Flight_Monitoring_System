@@ -1,0 +1,6 @@
+FlightNumber,IncidentType,Description
+FA234,Flight,Smoke detected in the cockpit
+SH372,Flight,Suspicious package found in the cabin
+BA456,Weather,Thunderstorm
+EK789,Flight,Hydraulic system malfunction
+
