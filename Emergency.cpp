@@ -83,16 +83,19 @@ void ManageEmergency()
         if (incidentType == "Flight") {
             for (const Flight& flight : flights) {
                 if (flight.getFlightNumber() == flightNumber) {
+                    EmergencyIncident *b;
                     FlightEmergency flightEmergency(flightNumber, description);
-                    flightEmergency.handleIncident();
-                    break;
+                    b = &flightEmergency;
+                    b->handleIncident();
                 }
             }
         } else if (incidentType == "Weather") {
              for (const Flight& flight : flights) {
                 if (flight.getFlightNumber() == flightNumber) {
+                    EmergencyIncident *c;
             WeatherEmergency weatherEmergency(flightNumber,description);
-            weatherEmergency.handleIncident();
+            c = &weatherEmergency;
+            c->handleIncident();
         }
         }
         }
@@ -103,4 +106,3 @@ void ManageEmergency()
     emergencyFile.close();
 
 }
-
