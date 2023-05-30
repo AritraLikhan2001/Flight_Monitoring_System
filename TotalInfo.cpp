@@ -3,9 +3,9 @@
 
     FlightInfo FlightInfo:: operator+(const FlightInfo& other) {
         FlightInfo result;
-        result.passengers = this->passengers + other.passengers;
-        result.crews = this->crews + other.crews;
-        result.flightHours = this->flightHours + other.flightHours;
+        result.passengers = passengers + other.passengers;
+        result.crews = crews + other.crews;
+        result.flightHours = flightHours + other.flightHours;
         return result;
     }
 
