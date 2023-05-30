@@ -96,11 +96,7 @@ void ManageEmergency()
         }
         }
         }
-        else {
-            // Handle other types of emergencies if necessary
-            cout << "Unknown incident type: " << incidentType << endl;
-        }
-
+      
         cout << endl;
     }
 
